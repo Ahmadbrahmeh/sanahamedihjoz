@@ -1,0 +1,44 @@
+.account-stmnt-header{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    border: 1px solid #aaa;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.account-invoice-table table {
+    color: black;
+    direction: rtl;
+    text-align: center;
+    display: table;
+}
+.account-invoice-table td {
+    border: 1px solid #000;
+}
+
+.account-invoice-table .table-responsive .table {
+    max-width: none;
+}
+
+.colorBlackBold {
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.report-account-invoice{
+    min-height: 500px;
+}
+
+.card-body {
+    padding-top: 6px;
+}
+
+li.select2-results__option.select2-results__option--selectable {
+    text-align: right !important;
+}

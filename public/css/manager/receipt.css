@@ -1,0 +1,64 @@
+.receipt-header{
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+	border: 1px solid #aaa;
+    padding: 5px;
+}
+
+.receipt-number{
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
+	padding:10px;
+}
+
+.table-responsive .table{
+	max-width: none;
+}
+
+.colorBlackBold{ 
+	color: black;
+	font-weight: bold;
+}
+
+.colorBlack{ 
+	color: black;
+}
+
+.table-hover tbody tr:hover {
+    color: #000 !important;
+    background-color: #eee !important;
+}
+
+.inputwithoutborder {
+	border: 0px solid #ccc !important;
+    background: transparent !important;
+	max-width: 60px;
+}
+
+.inputwithoutborder:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.readonlycell {
+	background: #ddd !important;
+}
+
+
+.datepicker_{
+	background: white;
+}
+
+.container input {
+	min-width: 100% !important;
+	min-height: 30px !important;
+}
+
+.container td {
+	padding: 0px !important;
+}
+
+li.select2-results__option.select2-results__option--selectable {
+    text-align: right !important;
+}

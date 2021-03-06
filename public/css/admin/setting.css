@@ -1,0 +1,39 @@
+.container{
+
+    direction: rtl;
+  }
+  .navtop{
+    padding: 0px !important;  
+    background-color:#f2f5fd;
+  }
+  .tab-content {
+    padding: 40px;
+  }
+  
+  .btn_setting{
+    margin-top: 30px !important;
+  }
+  
+  .setting-tab li {
+    border: 1px solid #d1d3e2;
+  }
+  .setting-tab li a{
+    color: black !important;
+  }
+  
+  .nav-pills .nav-link {
+    border-radius: 0rem !important;
+  }
+  .lbl{
+      text-align: right !important;
+      float: right !important;
+ }
+
+  .form-error{
+      float: right !important;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: #676b70;
+}

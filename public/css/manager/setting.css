@@ -1,0 +1,40 @@
+.container{
+
+  direction: rtl;
+}
+.navtop{
+  padding: 0px !important;  
+  background-color:#f2f5fd;
+}
+.tab-content {
+  padding: 40px;
+}
+
+.btn_setting{
+  margin-top: 30px !important;
+}
+
+.setting-tab li {
+  border: 1px solid #d1d3e2;
+}
+.nav-pills .nav-link {
+  border-radius: 0rem !important;
+}
+#days-on-off{   
+  padding-right: 0px;
+  text-align: right;  
+  float: right;
+  list-style-type: none;
+  display: inline-flex;
+}
+#days-on-off li {
+  padding-left: 15px;
+}
+
+#days-on-off li label{
+  cursor: pointer;
+}
+  
+#days-on-off li input{
+  cursor: pointer;
+}

@@ -1,0 +1,150 @@
+#days-on-off{   
+    padding-right: 0px;
+    text-align: right;  
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    line-height: 3.333em;
+  }
+  #days-on-off li {
+    padding-left: 15px;
+  }
+.badgebox
+{
+    opacity: 0;
+}
+.badgebox + .badge
+{
+    text-indent: -999999px;
+	width: 27px;
+}
+.badgebox:focus + .badge
+{
+    box-shadow: inset 0px 0px 5px;
+}
+.badgebox:checked + .badge
+{
+ 	text-indent: 0;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  background-color: green;
+  color: white;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+  font-size: 12px;
+}
+
+#img-upload{
+  width: 100%;
+}
+.uploadfile{
+  border: none;
+  padding-right: 20px;
+  font-size: 12px;
+}
+  
+#reservationModal{
+  direction: rtl;
+}
+
+#event_date {
+  letter-spacing: 2px;
+}
+
+.card-body{
+  direction: rtl;
+}
+
+.pay-type{
+  margin-right: 50px !important;
+}
+#not-included-content{
+  display: none;
+}
+.hall-container{
+  border: 1px solid #a4aac1;
+  padding: 10px !important;
+}
+.hall-container #all-hall {
+  padding: 10px !important;
+}
+.hall{
+  margin-top: 30px; 
+  border: 1px solid #a4aac1;
+  padding: 10px;
+}
+#btn-add-hall{
+  margin-top: 30px;
+}
+
+
+#services{
+  border: 1px solid #a4aac1;
+  padding: 10px !important;
+  height: 250px !important;
+  overflow: scroll !important;
+}
+#services-ul
+{
+  list-style-type: none;
+  display: inline-flex;
+}
+.btn-service{
+  width: 135px !important;
+  height: 65px !important;
+  background-color: lightcoral !important;
+  color: black;
+  margin-left: 20px !important;
+}
+p{
+  height: 10px !important;
+}
+.btn-service:hover{
+  color: black !important;
+}
+.service-selected{
+  background-color: lightgreen !important;
+}
+
+#delete-service{
+  float: right !important;
+}
+
+.top{
+  margin-top: 20px !important ;    
+}
+.top2{
+  margin-top: 40px !important;
+}
+#add-appropriateness-list{
+  margin-right: 10px !important;
+}
+
+.btn-delete {
+  float: right;
+  padding: 0px;
+  margin: 0px 10px 10px 10px;
+}
+
+.service-price-label {
+  color: #305bb8;
+  font-weight: bold;
+}
+
+
+#btn-add-customer{
+  margin-bottom: 10px !important;
+}

@@ -1,0 +1,9 @@
+.lbl_salary{
+    margin-right: 10px !important;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+salary-block label, input{
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+#code{
+    text-transform: uppercase
+}
+.exchange-rate-main{
+    justify-content: center;
+    direction: rtl;
+    text-align: right;
+}
+#btn-exchange-rate{
+    margin-top:50px;;
+}
+.lbl-currency{
+    text-align: center !important;
+}
+#exchange-rate-input{
+    margin-top: 30px;
+}  
+
+#exhange-rate-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #a94442;
+    font-weight: 500;
+}

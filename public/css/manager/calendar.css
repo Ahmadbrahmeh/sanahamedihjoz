@@ -1,0 +1,27 @@
+
+  .fc-header-toolbar {
+    /*
+    the calendar will be butting up against the edges,
+    but let's scoot in the header's buttons
+    */
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .fc-time-grid-event .fc-time {
+    direction: rtl !important;
+  }
+
+  .fc-title{
+    font-size: 12px;
+  }
+
+  .fc-time {
+    font-size: 12px;
+    font-weight: normal !important;
+  }
+
+  .fc .fc-row .fc-content-skeleton table, .fc .fc-row .fc-content-skeleton td, .fc .fc-row .fc-mirror-skeleton td {
+  cursor: pointer;
+}

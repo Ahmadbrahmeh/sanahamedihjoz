@@ -1,0 +1,51 @@
+#tbl-bill{
+  direction: rtl !important;
+  border-spacing: 8px 10px;
+
+}
+.invoice-table{
+  margin-top: 50px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 8px 10px;
+
+}
+table, td{
+  border: 1px solid black;
+  padding: 5px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child {
+  border-right: 1px solid #e3e6f0 !important;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #4e73df;
+  border-color: #4e73df;
+  pointer-events: none;
+  cursor: default;
+}
+#btn-print{
+  background-color: green;
+  width: 100px;
+  height: 30px;
+  color: white;
+  margin-top: 20px;
+}
+.header{
+  background-color: lightgrey;
+}
